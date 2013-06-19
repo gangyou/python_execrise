@@ -1,3 +1,0 @@
-Hello World!
-EveryOne!
-Welcome to the python world!
