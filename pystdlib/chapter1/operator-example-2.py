@@ -5,12 +5,16 @@ import UserList
 
 def dump(data):
     print type(data), "=>",
+    # deprecated since version 2.0: User isinstance(x, collections.Callable) instead
     if operator.isCallable(data):
         print "CALLABLE",
+    # deprecated since version 2.7: Use isinstance(x, collections.Mapping) instead
     if operator.isMappingType(data):
         print "MAPPING",
+    # deprecated since version 2.7: Use isinstance(x, numbers.Number) instead
     if operator.isNumberType(data):
         print "NUMBER",
+    # deprecated since version 2.7: Use isinstance(x, collections.Sequence) instead
     if operator.isSequenceType(data):
         print "SEQUENCE",
     print

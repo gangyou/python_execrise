@@ -1,9 +1,11 @@
 import sys
 
+print sys.platform
+
 if sys.platform == 'win32':
 	import ntpath
 	pathmodule = ntpath
-elif sys.platform == 'mac':
+elif sys.platform == 'darwin':
 	import macpath
 	pathmodule = macpath
 else:

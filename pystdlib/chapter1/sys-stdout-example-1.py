@@ -11,5 +11,8 @@ old_stdout = sys.stdout
 sys.stdout = Redirect(sys.stdout)
 
 print "HEJA SVERIGE"
+print "FRISKT HUM\303\226R"
 
 sys.stdout = old_stdout
+
+print "M\303\205\303\205\303\205\303\205L!"

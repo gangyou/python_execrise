@@ -3,6 +3,7 @@ import sys
 
 def run(program, *args):
     pid = os.fork()
+    print pid
     if not pid:
         os.execvp(program, (program,) +  args)
     return os.wait()[0]
