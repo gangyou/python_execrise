@@ -1,0 +1,7 @@
+<document name="sample.xml">
+    <header>This is a header</header>
+    <body>This is the body text.  The text can contain
+    plain text (&quot;character data&quot;), tags, and
+    entities.
+    </body>
+</document>
