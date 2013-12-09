@@ -1,0 +1,8 @@
+import array, binascii
+
+s = 'This is the array'
+a = array.array('c', s)
+
+print 'As string:', s
+print 'As array:' , a
+print 'As hex:', binascii.hexlify(a)
